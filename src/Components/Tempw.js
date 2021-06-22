@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import "./css/Style.css";
+// import {BrowserRouter,Switch,Router,Link,Route} from 'react-router-dom';
 
 function Tempw(){
     const [city,setCity]=useState(null);
@@ -19,6 +20,7 @@ function Tempw(){
 
     return (
         <>
+        {/* <Router> */}
         <center>
 
             <div className="box">
@@ -49,6 +51,10 @@ function Tempw(){
                 
             </div>   
             </center>
+            {/* <Switch>
+                <Route path="/" Component={Tempw}/>
+            </Switch> */}
+            {/* </Router> */}
         </>
     )
 }
